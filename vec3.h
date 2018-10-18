@@ -12,6 +12,8 @@
 #ifndef VEC3H
 #define VEC3H
 
+#define rand ((double) rand() / (RAND_MAX))
+
 #include <math.h>
 #include <stdlib.h>
 #include <iostream>
